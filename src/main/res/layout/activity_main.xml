@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bsubackgroundwithlogos"
+    tools:context="com.ece218.jm.butlerbotv3.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_marginBottom="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="51dp"
+        android:onClick="btnConn"
+        android:text="Send Request"
+        android:textSize="40dp"/>
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:inputType="textPersonName"
+        android:hint="enter destination here"
+        android:textSize="35dp"
+        android:textColorHint="#F55A07"
+        android:gravity="center"
+        android:ems="10"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/editText" />
+
+    <TextView
+        android:text="BUTLERBOT V.3"
+        android:textColor="#fcfdff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="100dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/textView2" />
+</RelativeLayout>
+
+
+
